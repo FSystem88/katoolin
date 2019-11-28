@@ -3,10 +3,10 @@
 Automatically install all Kali linux tools
 
 # Installation
-<code>sudo git clone https://github.com/FSystem88/katoolin</code><br>
-<code>sudo cp katoolin/katoolin.py /usr/bin/katoolin</code><br>
-<code>sudo chmod +x /usr/bin/katoolin</code><br>
-<code>sudo katoolin</code>
+- <code>sudo git clone https://github.com/FSystem88/katoolin</code><br>
+- <code>sudo cp katoolin/katoolin.py /usr/bin/katoolin</code><br>
+- <code>sudo chmod +x /usr/bin/katoolin</code><br>
+- <code>sudo katoolin</code>
 
 # Features
 - Add Kali linux repositories
