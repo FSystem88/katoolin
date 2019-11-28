@@ -98,7 +98,7 @@ For more information , please visit : http://www.florian-diesch.de/software/clas
 
 		inicio1()
 	except KeyboardInterrupt:
-		print ("\nShutdown requested..\n.Goodbye...")
+		print ("\nShutdown requested...\nGoodbye...")
 	except Exception:
 		traceback.print_exc(file=sys.stdout)
 	sys.exit(0)
