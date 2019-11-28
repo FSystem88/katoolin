@@ -23,7 +23,8 @@ def main():
 
  \033[1;32m+ -- -- +=[ Author: LionSec | Homepage: www.neodrix.com\033[1;m
  \033[1;32m+ -- -- +=[ Editor: FSystem88 | https://github.com/FSystem88 \033[1;m
- \033[1;31m+ -- -- +=[  THIS PROGRAM WILL BREAK YOUR UNIX \033[1;m
+ 
+ \033[1;31m+ -- -- +=[ PROBABLY THIS PROGRAM WILL BREAK YOUR UNIX \033[1;m
 
 
 \033[1;91m[W] Before updating your system , please remove all Kali-linux repositories to avoid any kind of problem .\033[1;m
