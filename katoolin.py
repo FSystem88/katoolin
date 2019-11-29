@@ -1,14 +1,23 @@
 #!/usr/bin/python
 
 import os
-import sys, traceback
+import sys, traceback, argparse
+parser = argparse.ArgumentParser(prog='katoolin', description="Automatically install all Kali linux tools")
+parser.add_argument('update', nargs='?')
+args = parser.parse_args()
+update = args.update
 
 if os.getuid() != 0:
 	print "Sorry. This script requires sudo privledges"
 	sys.exit()
+
 def main():
 	try:
 		cmd1 = os.system("clear")
+		if update >= "0":
+			cmd = os.system("echo rm -rf /usr/bin/katoolin && rm -rf katoolin && sudo git clone https://github.com/FSystem88/katoolin && sudo cp katoolin/katoolin.py /usr/bin/katoolin && sudo chmod +x /usr/bin/katoolin>katoolin.sh")
+			cmd = os.system("cd && sh katoolin.sh && rm -rf katoolin.sh")
+			exit()
 		def inicio1():
 			while True:
 				print ('''
