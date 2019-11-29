@@ -3,7 +3,7 @@
 import os
 import sys, traceback, argparse
 parser = argparse.ArgumentParser(prog='katoolin', description="Automatically install all Kali linux tools")
-parser.add_argument('update', nargs='?')
+parser.add_argument('update', nargs='?', help="Update this program")
 args = parser.parse_args()
 update = args.update
 
