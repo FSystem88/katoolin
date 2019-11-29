@@ -15,7 +15,7 @@ Automatically install all Kali linux tools
 
 # Donations
 - Paypal : https://www.paypal.me/FSystem88
-- Others (RUS): https://FSystem88.ru/donate
+- Others (RUS): http://FSystem88.ru/donate
 
 # Contact
 - Website : https://FSystem88.ru
